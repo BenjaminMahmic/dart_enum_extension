@@ -4,6 +4,8 @@ Easy Dart Enum
 
 Made by Benjamin Mahmić ("https://github.com/BenjaminMahmic")
 
+Extension link: "https://marketplace.visualstudio.com/items?itemName=BenjaminMahmic.easy-dart-enum"
+
 ## How to use
 
 1. Select complete enum
