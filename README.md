@@ -18,5 +18,21 @@ Made by Benjamin Mahmić ("https://github.com/BenjaminMahmic")
 
 ![Screenshot_3](https://github.com/BenjaminMahmic/dart_enum_extension/assets/89051381/362c16e6-edb4-44e6-8c45-f3558170e251)
 
+## Usage
+
+```dart
+  enum SubscriptionType {
+      free,
+      monthly,
+      annal,
+  }
+
+  final subscriptionType = SubscriptionType.monthly;
+
+  void main() {
+    print(subscriptionType.isMonthly); // true
+    print(subscriptionType.isAnnual); // false
+  }
+```
 
 **Enjoy!** 🚀
