@@ -22,9 +22,15 @@ Made by Benjamin Mahmić ("https://github.com/BenjaminMahmic")
 
 ```dart
   enum SubscriptionType {
-      free,
-      monthly,
-      annal,
+    free,
+    monthly,
+    annal,
+  }
+
+  extension SubscriptionTypeExtension on SubscriptionType {
+    bool get isFree => this == SubscriptionType.free;
+    bool get isMonthly => this == SubscriptionType.monthly;
+    bool get isAnnual => this == SubscriptionType.annual;
   }
 
   final subscriptionType = SubscriptionType.monthly;
